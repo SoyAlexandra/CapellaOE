@@ -30,10 +30,26 @@ Text Domain:
  * -----------------------------------------------------------------------------
  */
 
+<style type="text/css">
+    #mc_embed_signup{background:#e6e6e6; clear:left; font:14px Abel;}
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file.                 Helvetica,Arial,sans-serif */
+</style>
  * {outline: none !important;}
 
 
 /*============================================Global============================================ */
+
+@media screen and (max-width:768px) {
+    .navbar-brand{
+        float: none;
+    }
+    .logo{
+        width : 12rem;
+        padding: .5rem 0;
+    }
+}
+
 ul li
 {
     list-style: none;
@@ -42,6 +58,8 @@ ul li
 li a
 {
     text-decoration: none;
+
+
 }
 .form-control, .input-group-addon
 {
@@ -150,6 +168,7 @@ h1, h2, h3, h4, h5, h6
 {
     font-size: 32px;
     color: #fff;
+    
 }
 .navbar-nav li 
 {
@@ -162,6 +181,7 @@ h1, h2, h3, h4, h5, h6
     color: #005587;
     font-size: 17px;
     /*color: #fff;*/
+    
 }
 .navbar-default .navbar-nav>.active
 {
@@ -178,14 +198,14 @@ li:last-child
     border-right: transparent;
 }
 .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
-    background-color: #377F8F;
+    background-color: #005587;
     color: white;
     border-bottom: 4px ridge rgb(5, 207, 252);
 }
 .navbar-fixed-top .navbar-collapse
 {
     /* max-height: 415px; */
-    padding-top: 20px;
+    
         
 }
 .container-fluid 
@@ -1199,7 +1219,7 @@ main p {
 .copy-right-text
 {
     color: #fff;
-    font-size: 13px;
+    font-size: 10px;
     padding-top: 25px;
 }
 
