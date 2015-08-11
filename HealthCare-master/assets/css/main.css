@@ -40,15 +40,16 @@ Text Domain:
 
 /*============================================Global============================================ */
 
-@media screen and (max-width:768px) {
-    .navbar-brand{
-        float: none;
-    }
-    .logo{
-        width : 12rem;
-        padding: .5rem 0;
-    }
+.service-img {
+
+
+      border-radius: 50%; 
+      width: 50%; 
+      height: 50%;
 }
+
+
+
 
 ul li
 {
@@ -1349,5 +1350,15 @@ li.socials-icons
 @media(max-width: 319px) {
     .heading-slider {
         display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar-brand{
+        float: none;
+    }
+    .logo{
+        width : 12rem;
+        padding: .5rem 0;
     }
 }
