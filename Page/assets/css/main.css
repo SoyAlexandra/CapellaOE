@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6
 }
 .section-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.78);
+    background-color: rgba(45, 53, 56, 0.1);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -364,7 +364,7 @@ li:last-child
 .slider-inner 
 {
     /*background-color: rgba(21, 7, 7, 0.55);*/
-    background-color: rgba(51, 71, 90, 0.2);
+    background-color: rgba(51, 71, 90, -9);
     width: 100%;
     color: white;
     height: 700px;
@@ -376,7 +376,7 @@ li:last-child
 }
 .slider-1
 {
-    background: url(../img/trust.JPG);
+    background: url(../img/confianza.jpg);
     width: 100%;
     background-size: cover;
     vertical-align: middle;
@@ -411,7 +411,7 @@ li:last-child
 
 .slider-5
 {
-    background: url(../img/servicio.jpg);
+    background: url(../img/servicio.JPG);
     width: 100%;
     background-size: cover;
     background-position-x: 75%;
@@ -420,7 +420,7 @@ li:last-child
 
 .slider-6
 {
-    background: url(../img/tecnologia.jpg);
+    background: url(../img/slogan.jpg);
     width: 100%;
     background-size: cover;
     background-position-x: 75%;
@@ -564,12 +564,14 @@ section.starting-text
 /* ========================================= 2. Service=========================================== */
 .service-title
 {
-    background: url(../img/services/servicios.jpg);
+    background: url(../img/consultorio.jpg);
     background-size: cover;
     vertical-align: middle;
     background-position: center;
     color: #F0FEFF;
 }
+
+
 .service-title .headline 
 {
     font-size: 70px;
@@ -578,7 +580,7 @@ section.starting-text
 .service-wrapper
 {
     /*background-color: rgba(45, 53, 56, 0.28);*/
-    background-color: rgba(70, 161, 180, 0.62);
+    background-color: rgba(70, 161, 180, 0.2);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -732,6 +734,12 @@ section.starting-text
 #starting
 {
     background: url(../img/equipo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#starting1
+{
+    background: url(../img/GalaDinner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
