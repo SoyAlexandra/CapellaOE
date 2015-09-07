@@ -287,6 +287,24 @@ li:last-child
     font-size: 14px !important;
     display: inline-block;
 }
+/*----------------------------------------iframe---------------------------------------------*/
+iframe {
+  width: 100%;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
 
 /* ------------------------------------   appointment  ----------------------------------------- */
 
@@ -361,19 +379,36 @@ li:last-child
 
 
 /* -------------------------------------- 1.1 heading-slider---------------------------------------- */
+.slider-inner {
+  height: 350px;
+}
+
+@media (min-width: 600px ) {
+  .slider-inner {
+    height: 400px;
+  }
+}
+
+@media (min-width: 900px ) {
+  .slider-inner {
+    height: 700px;
+  }
+}
+
 .slider-inner 
 {
     /*background-color: rgba(21, 7, 7, 0.55);*/
     background-color: rgba(51, 71, 90, -9);
     width: 100%;
     color: white;
-    height: 700px;
-}
+ }
+
 .slider-inner-text
 {
     margin: 262px 0px;
     width: 50%
 }
+
 .slider-1
 {
     background: url(../img/confianza.jpg);
@@ -411,7 +446,7 @@ li:last-child
 
 .slider-5
 {
-    background: url(../img/servicio.JPG);
+    background: url(../img/servicio.jpg);
     width: 100%;
     background-size: cover;
     background-position-x: 75%;
@@ -1386,6 +1421,8 @@ li.socials-icons
 }
 
 /* =========================================Media Query========================================= */
+
+
 
 @media (min-width: 1200px){
     .navbar-collapse.collapse 
