@@ -1,0 +1,59 @@
+commit 71c34a6eb27924fd08d7c2024307794eec4d5da5
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Tue Sep 8 21:27:01 2015 -0500
+
+    Cambios de contenido
+
+commit 35a2eb70341f1b5093a12aa0a32ec9ad6d7b37be
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Mon Sep 7 21:25:05 2015 -0500
+
+    Reubicado los scripts de mailchimp en todas las paginas
+
+commit 31a1e29bc6f5db5ad3fede109a2ebbd03ae2f9b1
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Mon Sep 7 15:47:47 2015 -0500
+
+    Resized pictures, iframe adjusted, carrousel fixed
+
+commit 17b7cb5adedac05712f4520e6e27cadf93a68286
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Mon Sep 7 02:08:52 2015 -0500
+
+    Actualizadas pagina Julio Capella, fotos y opacidades
+
+commit 37cc5e769303af5c821506476b73e70be18db494
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Fri Sep 4 14:52:24 2015 -0500
+
+    Fotos cargadas
+
+commit 4f439a392f1bdb79da0e3d52a685675135226430
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Thu Aug 20 12:27:47 2015 -0500
+
+    Actualizadas paginas de alianzas y contacto
+
+commit 3569274be58c899eb8bcbdf896869088cb80e2e7
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Tue Aug 11 17:33:38 2015 -0500
+
+    Actualizada pagina servicios imagenes
+
+commit a377625fc204a8fc4b7db947081dc496aefc1fb6
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Tue Aug 11 09:29:41 2015 -0500
+
+    Pagina Servicios en progreso, arreglado texto formulario
+
+commit 52ae010b3cb199d612ac4a179b1bd184adbec563
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Tue Aug 4 15:27:12 2015 -0500
+
+    Inicio Servicios y Equipo
+
+commit 870df8e0fce6977a667ee389aac422f834d9eb1d
+Author: SoyAlexandra <mora.andrealex@gmail.com>
+Date:   Mon Aug 3 09:02:03 2015 -0500
+
+    First Commit

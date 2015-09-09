@@ -380,7 +380,7 @@ iframe {
 
 /* -------------------------------------- 1.1 heading-slider---------------------------------------- */
 .slider-inner {
-  height: 350px;
+  height: 400px;
 }
 
 @media (min-width: 600px ) {
@@ -467,7 +467,7 @@ iframe {
 
 section.starting-text 
 {
-    background-color: rgba(70, 161, 180, 0.82);
+    background-color: rgba(21, 7, 7, -9);
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -523,7 +523,7 @@ section.starting-text
 
 .service-img 
 {
-    opacity: 0.9;
+    opacity: -9;
 }
 /* .fa-facebook , .fa-twitter ,.fa-google-plus , .fa-instagram , .fa-pinterest , .fa-skype{
 
@@ -534,7 +534,7 @@ section.starting-text
 }
 .hservice {
     /*background: rgb(242, 247, 255);*/
-    background-color: rgba(185, 208, 240, 0.16);
+    background-color: rgba(21, 7, 7, 0.16);
     border: 1px solid #CED8E7;
     margin: 30px 0px;
     padding-bottom: 30px;
@@ -557,14 +557,20 @@ section.starting-text
 
 }
 /* ========================================= 2. Service=========================================== */
+/*#service-title{
+    background-image: url(../img/consultorio1.jpg);
+}*/
+
 .service-title
 {
-    background: url(../img/consultorio.jpg);
+    background: url(..assets/img/consultorio1.jpg);
     background-size: cover;
     vertical-align: middle;
     background-position: center;
     color: #F0FEFF;
+    
 }
+
 
 
 .service-title .headline 
@@ -575,7 +581,8 @@ section.starting-text
 .service-wrapper
 {
     /*background-color: rgba(45, 53, 56, 0.28);*/
-    background-color: rgba(70, 161, 180, 0.2);
+    background: url(..assets/img/consultorio1.jpg);
+    background-color: rgba(21, 7, 7, -9);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -684,12 +691,12 @@ section.starting-text
     line-height: 25px;
     padding: 10px 0px;
 }
-.special-service h2
+/*.special-service h2
 {
     background: url("../img/title-bg.png") repeat-x scroll 0 13px rgba(0, 0, 0, 0);
     margin-bottom: 10px;
     margin-top: 0;
-}
+}*/
 
 .sub-headline 
 {
@@ -766,14 +773,14 @@ section.starting-text
 {
     padding-top: 100px;
 
-.service    
+  
 }
 .doctor-meta
 {
     margin: 100px 0px 70px 0px;
     padding: 120px 35px 36px;
     border: 1px solid rgba(59, 77, 116, 0.29);
-    background-color: rgba(92, 145, 216, 0.27);
+    background-color: rgba(21, 7, 7, -9);
     position: relative;
 }
 .doctor-meta .doctor-img
@@ -882,7 +889,7 @@ section.starting-text
 }
 .contact-wrapper
 {
-    background-color: rgba(45, 53, 56, 0.2);
+    background-color: rgba(21, 7, 7, -9);
     padding: 78px 0px;
     margin-top: 65px;
 }
@@ -1088,3 +1095,4 @@ li.socials-icons
         padding: .5rem 0;
     }
 }
+
